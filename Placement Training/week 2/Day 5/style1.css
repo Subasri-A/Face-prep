@@ -1,0 +1,44 @@
+.box{
+    background-color: blueviolet;
+    text-align: center;
+    display: inline-block;
+    width:100%
+}
+.container{
+    display: flex;   
+   flex-wrap:wrap;
+   justify-content: space-between;
+    /* background-color: white; */
+    flex-grow: 1;
+    padding:10px;
+    
+}
+.container div{
+    background-color:black;
+    padding:15px;
+    font-size: 15px;
+   color: white; 
+   text-align: center;
+   line-height: 15px;
+   width:30%
+   
+}
+.flex{
+    display: flex;   
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding:10px;
+     flex-grow: 1;
+     
+     
+}
+.flex div{
+    width:30%;
+    background-color:gray;
+    padding:15px;
+    font-size: 15px;
+   color: white; 
+   text-align: center;
+   line-height: 15px;
+   
+}

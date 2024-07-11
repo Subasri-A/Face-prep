@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>FORM</title>
+</head>
+<body ><center>
+    <div style="border-style: solid;border-width: 5px;margin-left: 250px;margin-right: 250px; background-color: lightgray;">
+    <h1>FORM</h1>
+    <table>
+        <form>
+            <tr>
+           <td> <label for="fullname">FULL NAME:</label></td>
+           <td> <input type="text" id="fullname" pattern="[a-z A-z]+" minlength="2" required\><br></td>
+          
+        </tr>
+        <tr>
+            <td> <label for="email">EMAIL:</label></td>
+                <td> <input type="email" id="email" required><br></td>
+                
+        </tr>
+            <tr>
+                <td> <label for="pass">PASSWORD:</label></td>
+                    <td><input type="password" id="pass" pattern="[a-z A-Z]+" minlength="6" required><br></td>
+        </tr>
+            <tr>
+                <td> <label for="pno">PHONE NUMBER:</label></td>
+                    <td> <input type="number" id="pno" pattern="[0-9]{10}"  required><br></td>
+        </tr>
+            <tr>
+                <td colspan="2"> <input type="submit"></td>
+        </tr>
+        </form>
+    </table>
+</div>
+</center>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+</head>
+<body>
+  <h1>FORM</h1>
+  <table>
+    <form>
+      <tr>
+        <td>Enter Course Code:</td>
+        <td><input type="text" pattern="[A-Z]{3}[0-9]{2}[A-Z]{3}[0-9]{3}" required\></td>
+      </tr>
+      <tr>
+        <td>Enter color:</td>
+        <td><input type="text" pattern="#[A-F a-f 0-9]{6}"></td>
+      </tr>
+      <tr>
+        <td>Enter Phone No:</td>
+        <td><input type="text" pattern="[0-9]{10}"></td>
+      </tr>
+      <tr>
+        <td>Number:</td>
+        <td><input type="text" pattern="\([0-9]{3}\) [0-9]{3}-[0-9]{3}"></td>
+      </tr>
+      <tr>
+        <td>URL:</td>
+        <td><input type="text" pattern="https://www[.][a-zA-Z]+[.]com"></td>
+      </tr>
+      <tr>
+        <td><input type="submit"></td>
+      </tr>
+  
+</form>
+</table>
+</body>
+</html>

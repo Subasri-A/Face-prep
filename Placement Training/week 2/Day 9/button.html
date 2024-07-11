@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script>
+        function sum{
+            var a=document.getElementById("t1").value;
+            var b=document.getElementById("t1").value;
+            var c=parseInt(a)+parseInt(b);
+            document.getElementById("ans").value=c;
+        }
+    </script>
+</head>
+<body>
+    
+    <div class="container">
+        <form onsubmit="return false">
+        <div class="form-floating my-3" >
+    <label for="t1" class="form-label">Enter the first Number</label> 
+    <input type="text" id="t1" class="form-control" placeholder="Enter the first number">  
+ </div>
+       <div class="form-floating my-3" >
+        
+        <label for ="t2" class="form-label">Enter the second number</label>
+        <input type="text" id="t2" class="form-control" placeholder="Enter the second number">
+       </div>
+    <button type="button" data-bs-toggle="collapse" data-bs-target="#result"  onclick="sum()" class="btn btn-primary" >Submit</button>
+    </div>
+</form>
+<div id="result" class="colapse">
+    <div id="resultcontent" ></div>
+</div>
+
+</body>
+</html>
